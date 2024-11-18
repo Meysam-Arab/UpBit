@@ -1,0 +1,323 @@
+*{
+    font-family: Tahoma;
+}
+body{
+    background-image: url("bg01.jpg");
+    background-repeat:repeat;
+}
+#header{
+
+}
+legend{
+    margin:0 auto;
+}
+#body{
+    text-align: center;
+    margin-top: 100px;
+}
+#logo{
+    min-width: 40%;
+    width: auto;
+}
+#header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#footer{
+    display: inline-block;
+}
+#footer .fa{
+    direction: rtl;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#footer .eng{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+/*button*/
+a.button.black ,#up_vid{
+    background: #111111;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#171717));
+    background: -moz-linear-gradient(#656565, #171717);
+    background: linear-gradient(#656565, #171717);
+    border: solid 1px #535353;
+    border-bottom: solid 3px #414141;
+    box-shadow: inset 0 0 0 1px #171717;
+    color: #b49983;
+    text-shadow: 0 1px 0 #2f2f2f; }
+
+a.button.black:hover ,#up_vid{
+    background: #4c4c4c;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#4c4c4c), to(#111111));
+    background: -moz-linear-gradient(#4c4c4c, #111111);
+    background: linear-gradient(#4c4c4c, #111111);
+    border: solid 1px #464646;
+    border-bottom: solid 3px #414141;
+    box-shadow: inset 0 0 0 1px #c08b6a; }
+
+a.button.black:active ,#up_vid{
+    background: #474747;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#171717));
+    background: -moz-linear-gradient(#474747, #171717);
+    background: linear-gradient(#474747, #171717);
+    border: solid 1px #2f2f2f;
+    box-shadow: inset 0 10px 15px 0 #3e3e3e; }
+a.button.black,#up_vid{
+    padding: 10px 50px;
+    text-decoration:none;
+}
+fieldset{
+    padding: 20px;
+}
+#link_href{
+    max-width: 600px;
+}
+#makenLink{
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 350px;
+    border-left:1em solid transparent;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+}
+#copyLinkCB{
+    float: right;
+    width: 36px;
+    margin: 10px 2px;
+    background: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#userBotToken{
+    width: 100%;
+    margin-top: 2px;
+}
+#termL{
+    background: url(warning.png) no-repeat scroll 2px 2px;
+    padding: 4px 0px 4px 30px;
+    font-size: 14px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+#termR{
+    background: url(warning.png) no-repeat scroll 2px 2px;
+    background-position: right;
+    padding: 4px 30px;
+    float: right;
+    font-size: 14px;
+    width: 90%;
+    direction: rtl;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+#up_vid{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+#uploadBtn{
+    margin-top: 5px;
+}
+#percent{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    margin-top: 20px;
+    width: 100%
+}
+#imgPercent{
+    position: relative;
+}
+#status{
+    text-align:center;
+}
+.bg_upload{
+    width: 100%;
+}
+#p-message,#status,#p-link,#botFather{
+    display: none;
+}
+#x-message{
+    float: right;
+    cursor: pointer;
+}
+#serverStatusEn,#serverStatusFa{
+    font-weight: 600;
+}
+/*responsice*/
+@media only screen and (max-width: 600px) {
+    #uploadBtn {
+        width: 100%;
+        font-size: x-small;
+    }
+    #makenLink{
+        max-width: 150px;
+    }
+    #mainDiv{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #uploadBtn {
+        width: 100%;
+        font-size: 5px;
+    }
+    #makenLink{
+        max-width: 60px;
+    }
+    #mainDiv{
+        width: 100%;
+    }
+}
+/*table*/
+div.table-title {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+}
+
+.table-title h3 {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 400;
+    font-style:normal;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 70px;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:15px;
+    font-weight: 100;
+    padding:5px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+}
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+    border-bottom: 1px solid #22262e;
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+    background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+    background: #191924;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:5px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:12px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+th.fa-text-left,td.fa-text-left{
+    text-align: right;
+    direction: rtl;
+}
+#mainDiv{
+    width: 50%;
+    margin: 0 auto;
+}
