@@ -10,13 +10,7 @@ if (isset($_GET['link'])) {
     $s="https://storage.pwrtelegram.xyz/".$_GET['link'];
     header("Location: ".$s);
 }
-//$listOfBotToken=["300974265:AAGqKQ04kWjliAyYPEtVX4MorNWmYeIahu0",
-//                 "331504193:AAH48sJOrQvF20Ah-_OvAeCo4lXucuIgIm4",
-//                 "350231374:AAGOx7JYszt9Yb8_KMDOfmS_QWqyraUn-z4",
-//                 "371540588:AAFLCkGQePfL9nc5bqV2N1dZ-wiGqolnn_s",
-//                 "312524868:AAF1dQlZQQETyhR8fXvuoH9Hl4UeL60oxpg",
-//                 "344778152:AAFjPkVtGhWu8OYJXk6iIAOCjHiG-qcNepg",
-//                 "356915612:AAFWo7b5A0wiwYEY3uqbaE0VLHD3DUTPn2M"];
+//$listOfBotToken=[your bot tokens];
 //$rndTemp=rand(0,count($listOfBotToken)-1);
 ?>
 <html>
